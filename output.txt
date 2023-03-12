@@ -1,0 +1,530 @@
+#0:The client has the arrival time 0 and the service time 1 assigned to the queue 1 finishes at time 1
+Current time:0
+Queue 1:c[1;0;1] Busy time : 1
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#1:The client has the arrival time 1 and the service time 3 assigned to the queue 1 finishes at time 4
+Current time:1
+Queue 1:c[2;1;3] Busy time : 3
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#2:The client has the arrival time 2 and the service time 6 assigned to the queue 2 finishes at time 8
+Current time:2
+Queue 1:c[2;1;3] Busy time : 2
+Queue 2:c[3;2;6] Busy time : 6
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#3:The client has the arrival time 3 and the service time 7 assigned to the queue 3 finishes at time 10
+#4:The client has the arrival time 3 and the service time 4 assigned to the queue 4 finishes at time 7
+Current time:3
+Queue 1:c[2;1;3] Busy time : 1
+Queue 2:c[3;2;6] Busy time : 5
+Queue 3:c[4;3;7] Busy time : 7
+Queue 4:c[5;3;4] Busy time : 4
+Queue 5:Busy time : 0
+
+
+#5:The client has the arrival time 4 and the service time 5 assigned to the queue 1 finishes at time 9
+#6:The client has the arrival time 4 and the service time 6 assigned to the queue 5 finishes at time 10
+Current time:4
+Queue 1:c[6;4;5] Busy time : 5
+Queue 2:c[3;2;6] Busy time : 4
+Queue 3:c[4;3;7] Busy time : 6
+Queue 4:c[5;3;4] Busy time : 3
+Queue 5:c[7;4;6] Busy time : 6
+
+
+Current time:5
+Queue 1:c[6;4;5] Busy time : 4
+Queue 2:c[3;2;6] Busy time : 3
+Queue 3:c[4;3;7] Busy time : 5
+Queue 4:c[5;3;4] Busy time : 2
+Queue 5:c[7;4;6] Busy time : 5
+
+
+Current time:6
+Queue 1:c[6;4;5] Busy time : 3
+Queue 2:c[3;2;6] Busy time : 2
+Queue 3:c[4;3;7] Busy time : 4
+Queue 4:c[5;3;4] Busy time : 1
+Queue 5:c[7;4;6] Busy time : 4
+
+
+#7:The client has the arrival time 7 and the service time 5 assigned to the queue 4 finishes at time 12
+Current time:7
+Queue 1:c[6;4;5] Busy time : 2
+Queue 2:c[3;2;6] Busy time : 1
+Queue 3:c[4;3;7] Busy time : 3
+Queue 4:c[8;7;5] Busy time : 5
+Queue 5:c[7;4;6] Busy time : 3
+
+
+#8:The client has the arrival time 8 and the service time 2 assigned to the queue 2 finishes at time 10
+#9:The client has the arrival time 8 and the service time 5 assigned to the queue 1 finishes at time 14
+#10:The client has the arrival time 8 and the service time 6 assigned to the queue 2 finishes at time 16
+Current time:8
+Queue 1:c[6;4;5] c[10;8;5] Busy time : 6
+Queue 2:c[9;8;2] c[11;8;6] Busy time : 8
+Queue 3:c[4;3;7] Busy time : 2
+Queue 4:c[8;7;5] Busy time : 4
+Queue 5:c[7;4;6] Busy time : 2
+
+
+Current time:9
+Queue 1:c[10;8;5] Busy time : 5
+Queue 2:c[9;8;2] c[11;8;6] Busy time : 7
+Queue 3:c[4;3;7] Busy time : 1
+Queue 4:c[8;7;5] Busy time : 3
+Queue 5:c[7;4;6] Busy time : 1
+
+
+Current time:10
+Queue 1:c[10;8;5] Busy time : 4
+Queue 2:c[11;8;6] Busy time : 6
+Queue 3:Busy time : 0
+Queue 4:c[8;7;5] Busy time : 2
+Queue 5:Busy time : 0
+
+
+Current time:11
+Queue 1:c[10;8;5] Busy time : 3
+Queue 2:c[11;8;6] Busy time : 5
+Queue 3:Busy time : 0
+Queue 4:c[8;7;5] Busy time : 1
+Queue 5:Busy time : 0
+
+
+#11:The client has the arrival time 12 and the service time 1 assigned to the queue 3 finishes at time 13
+#12:The client has the arrival time 12 and the service time 5 assigned to the queue 4 finishes at time 17
+#13:The client has the arrival time 12 and the service time 3 assigned to the queue 5 finishes at time 15
+Current time:12
+Queue 1:c[10;8;5] Busy time : 2
+Queue 2:c[11;8;6] Busy time : 4
+Queue 3:c[12;12;1] Busy time : 1
+Queue 4:c[13;12;5] Busy time : 5
+Queue 5:c[14;12;3] Busy time : 3
+
+
+#14:The client has the arrival time 13 and the service time 3 assigned to the queue 3 finishes at time 16
+Current time:13
+Queue 1:c[10;8;5] Busy time : 1
+Queue 2:c[11;8;6] Busy time : 3
+Queue 3:c[15;13;3] Busy time : 3
+Queue 4:c[13;12;5] Busy time : 4
+Queue 5:c[14;12;3] Busy time : 2
+
+
+#15:The client has the arrival time 14 and the service time 4 assigned to the queue 1 finishes at time 18
+Current time:14
+Queue 1:c[16;14;4] Busy time : 4
+Queue 2:c[11;8;6] Busy time : 2
+Queue 3:c[15;13;3] Busy time : 2
+Queue 4:c[13;12;5] Busy time : 3
+Queue 5:c[14;12;3] Busy time : 1
+
+
+#16:The client has the arrival time 15 and the service time 1 assigned to the queue 5 finishes at time 16
+Current time:15
+Queue 1:c[16;14;4] Busy time : 3
+Queue 2:c[11;8;6] Busy time : 1
+Queue 3:c[15;13;3] Busy time : 1
+Queue 4:c[13;12;5] Busy time : 2
+Queue 5:c[17;15;1] Busy time : 1
+
+
+Current time:16
+Queue 1:c[16;14;4] Busy time : 2
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:c[13;12;5] Busy time : 1
+Queue 5:Busy time : 0
+
+
+Current time:17
+Queue 1:c[16;14;4] Busy time : 1
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#17:The client has the arrival time 18 and the service time 6 assigned to the queue 1 finishes at time 24
+#18:The client has the arrival time 18 and the service time 4 assigned to the queue 2 finishes at time 22
+Current time:18
+Queue 1:c[18;18;6] Busy time : 6
+Queue 2:c[19;18;4] Busy time : 4
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:19
+Queue 1:c[18;18;6] Busy time : 5
+Queue 2:c[19;18;4] Busy time : 3
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#19:The client has the arrival time 20 and the service time 1 assigned to the queue 3 finishes at time 21
+Current time:20
+Queue 1:c[18;18;6] Busy time : 4
+Queue 2:c[19;18;4] Busy time : 2
+Queue 3:c[20;20;1] Busy time : 1
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#20:The client has the arrival time 21 and the service time 4 assigned to the queue 3 finishes at time 25
+Current time:21
+Queue 1:c[18;18;6] Busy time : 3
+Queue 2:c[19;18;4] Busy time : 1
+Queue 3:c[21;21;4] Busy time : 4
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:22
+Queue 1:c[18;18;6] Busy time : 2
+Queue 2:Busy time : 0
+Queue 3:c[21;21;4] Busy time : 3
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#21:The client has the arrival time 23 and the service time 2 assigned to the queue 2 finishes at time 25
+Current time:23
+Queue 1:c[18;18;6] Busy time : 1
+Queue 2:c[22;23;2] Busy time : 2
+Queue 3:c[21;21;4] Busy time : 2
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:24
+Queue 1:Busy time : 0
+Queue 2:c[22;23;2] Busy time : 1
+Queue 3:c[21;21;4] Busy time : 1
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#22:The client has the arrival time 25 and the service time 5 assigned to the queue 1 finishes at time 30
+#23:The client has the arrival time 25 and the service time 5 assigned to the queue 2 finishes at time 30
+Current time:25
+Queue 1:c[23;25;5] Busy time : 5
+Queue 2:c[24;25;5] Busy time : 5
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:26
+Queue 1:c[23;25;5] Busy time : 4
+Queue 2:c[24;25;5] Busy time : 4
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#24:The client has the arrival time 27 and the service time 3 assigned to the queue 3 finishes at time 30
+Current time:27
+Queue 1:c[23;25;5] Busy time : 3
+Queue 2:c[24;25;5] Busy time : 3
+Queue 3:c[25;27;3] Busy time : 3
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:28
+Queue 1:c[23;25;5] Busy time : 2
+Queue 2:c[24;25;5] Busy time : 2
+Queue 3:c[25;27;3] Busy time : 2
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:29
+Queue 1:c[23;25;5] Busy time : 1
+Queue 2:c[24;25;5] Busy time : 1
+Queue 3:c[25;27;3] Busy time : 1
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:30
+Queue 1:Busy time : 0
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:31
+Queue 1:Busy time : 0
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:32
+Queue 1:Busy time : 0
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:33
+Queue 1:Busy time : 0
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#25:The client has the arrival time 34 and the service time 2 assigned to the queue 1 finishes at time 36
+#26:The client has the arrival time 34 and the service time 7 assigned to the queue 2 finishes at time 41
+Current time:34
+Queue 1:c[26;34;2] Busy time : 2
+Queue 2:c[27;34;7] Busy time : 7
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#27:The client has the arrival time 35 and the service time 6 assigned to the queue 3 finishes at time 41
+#28:The client has the arrival time 35 and the service time 2 assigned to the queue 4 finishes at time 37
+#29:The client has the arrival time 35 and the service time 4 assigned to the queue 5 finishes at time 39
+Current time:35
+Queue 1:c[26;34;2] Busy time : 1
+Queue 2:c[27;34;7] Busy time : 6
+Queue 3:c[28;35;6] Busy time : 6
+Queue 4:c[29;35;2] Busy time : 2
+Queue 5:c[30;35;4] Busy time : 4
+
+
+#30:The client has the arrival time 36 and the service time 1 assigned to the queue 1 finishes at time 37
+Current time:36
+Queue 1:c[31;36;1] Busy time : 1
+Queue 2:c[27;34;7] Busy time : 5
+Queue 3:c[28;35;6] Busy time : 5
+Queue 4:c[29;35;2] Busy time : 1
+Queue 5:c[30;35;4] Busy time : 3
+
+
+Current time:37
+Queue 1:Busy time : 0
+Queue 2:c[27;34;7] Busy time : 4
+Queue 3:c[28;35;6] Busy time : 4
+Queue 4:Busy time : 0
+Queue 5:c[30;35;4] Busy time : 2
+
+
+Current time:38
+Queue 1:Busy time : 0
+Queue 2:c[27;34;7] Busy time : 3
+Queue 3:c[28;35;6] Busy time : 3
+Queue 4:Busy time : 0
+Queue 5:c[30;35;4] Busy time : 1
+
+
+#31:The client has the arrival time 39 and the service time 6 assigned to the queue 1 finishes at time 45
+#32:The client has the arrival time 39 and the service time 5 assigned to the queue 4 finishes at time 44
+Current time:39
+Queue 1:c[32;39;6] Busy time : 6
+Queue 2:c[27;34;7] Busy time : 2
+Queue 3:c[28;35;6] Busy time : 2
+Queue 4:c[33;39;5] Busy time : 5
+Queue 5:Busy time : 0
+
+
+#33:The client has the arrival time 40 and the service time 1 assigned to the queue 5 finishes at time 41
+Current time:40
+Queue 1:c[32;39;6] Busy time : 5
+Queue 2:c[27;34;7] Busy time : 1
+Queue 3:c[28;35;6] Busy time : 1
+Queue 4:c[33;39;5] Busy time : 4
+Queue 5:c[34;40;1] Busy time : 1
+
+
+Current time:41
+Queue 1:c[32;39;6] Busy time : 4
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:c[33;39;5] Busy time : 3
+Queue 5:Busy time : 0
+
+
+#34:The client has the arrival time 42 and the service time 2 assigned to the queue 2 finishes at time 44
+Current time:42
+Queue 1:c[32;39;6] Busy time : 3
+Queue 2:c[35;42;2] Busy time : 2
+Queue 3:Busy time : 0
+Queue 4:c[33;39;5] Busy time : 2
+Queue 5:Busy time : 0
+
+
+#35:The client has the arrival time 43 and the service time 6 assigned to the queue 3 finishes at time 49
+#36:The client has the arrival time 43 and the service time 4 assigned to the queue 5 finishes at time 47
+#37:The client has the arrival time 43 and the service time 4 assigned to the queue 2 finishes at time 48
+Current time:43
+Queue 1:c[32;39;6] Busy time : 2
+Queue 2:c[35;42;2] c[38;43;4] Busy time : 5
+Queue 3:c[36;43;6] Busy time : 6
+Queue 4:c[33;39;5] Busy time : 1
+Queue 5:c[37;43;4] Busy time : 4
+
+
+#38:The client has the arrival time 44 and the service time 1 assigned to the queue 4 finishes at time 45
+Current time:44
+Queue 1:c[32;39;6] Busy time : 1
+Queue 2:c[38;43;4] Busy time : 4
+Queue 3:c[36;43;6] Busy time : 5
+Queue 4:c[39;44;1] Busy time : 1
+Queue 5:c[37;43;4] Busy time : 3
+
+
+#39:The client has the arrival time 45 and the service time 1 assigned to the queue 1 finishes at time 46
+#40:The client has the arrival time 45 and the service time 1 assigned to the queue 4 finishes at time 46
+Current time:45
+Queue 1:c[40;45;1] Busy time : 1
+Queue 2:c[38;43;4] Busy time : 3
+Queue 3:c[36;43;6] Busy time : 4
+Queue 4:c[41;45;1] Busy time : 1
+Queue 5:c[37;43;4] Busy time : 2
+
+
+#41:The client has the arrival time 46 and the service time 5 assigned to the queue 1 finishes at time 51
+Current time:46
+Queue 1:c[42;46;5] Busy time : 5
+Queue 2:c[38;43;4] Busy time : 2
+Queue 3:c[36;43;6] Busy time : 3
+Queue 4:Busy time : 0
+Queue 5:c[37;43;4] Busy time : 1
+
+
+Current time:47
+Queue 1:c[42;46;5] Busy time : 4
+Queue 2:c[38;43;4] Busy time : 1
+Queue 3:c[36;43;6] Busy time : 2
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#42:The client has the arrival time 48 and the service time 7 assigned to the queue 2 finishes at time 55
+#43:The client has the arrival time 48 and the service time 2 assigned to the queue 4 finishes at time 50
+Current time:48
+Queue 1:c[42;46;5] Busy time : 3
+Queue 2:c[43;48;7] Busy time : 7
+Queue 3:c[36;43;6] Busy time : 1
+Queue 4:c[44;48;2] Busy time : 2
+Queue 5:Busy time : 0
+
+
+Current time:49
+Queue 1:c[42;46;5] Busy time : 2
+Queue 2:c[43;48;7] Busy time : 6
+Queue 3:Busy time : 0
+Queue 4:c[44;48;2] Busy time : 1
+Queue 5:Busy time : 0
+
+
+#44:The client has the arrival time 50 and the service time 3 assigned to the queue 3 finishes at time 53
+Current time:50
+Queue 1:c[42;46;5] Busy time : 1
+Queue 2:c[43;48;7] Busy time : 5
+Queue 3:c[45;50;3] Busy time : 3
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#45:The client has the arrival time 51 and the service time 6 assigned to the queue 1 finishes at time 57
+#46:The client has the arrival time 51 and the service time 3 assigned to the queue 4 finishes at time 54
+Current time:51
+Queue 1:c[46;51;6] Busy time : 6
+Queue 2:c[43;48;7] Busy time : 4
+Queue 3:c[45;50;3] Busy time : 2
+Queue 4:c[47;51;3] Busy time : 3
+Queue 5:Busy time : 0
+
+
+Current time:52
+Queue 1:c[46;51;6] Busy time : 5
+Queue 2:c[43;48;7] Busy time : 3
+Queue 3:c[45;50;3] Busy time : 1
+Queue 4:c[47;51;3] Busy time : 2
+Queue 5:Busy time : 0
+
+
+#47:The client has the arrival time 53 and the service time 5 assigned to the queue 3 finishes at time 58
+Current time:53
+Queue 1:c[46;51;6] Busy time : 4
+Queue 2:c[43;48;7] Busy time : 2
+Queue 3:c[48;53;5] Busy time : 5
+Queue 4:c[47;51;3] Busy time : 1
+Queue 5:Busy time : 0
+
+
+Current time:54
+Queue 1:c[46;51;6] Busy time : 3
+Queue 2:c[43;48;7] Busy time : 1
+Queue 3:c[48;53;5] Busy time : 4
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:55
+Queue 1:c[46;51;6] Busy time : 2
+Queue 2:Busy time : 0
+Queue 3:c[48;53;5] Busy time : 3
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:56
+Queue 1:c[46;51;6] Busy time : 1
+Queue 2:Busy time : 0
+Queue 3:c[48;53;5] Busy time : 2
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#48:The client has the arrival time 57 and the service time 1 assigned to the queue 1 finishes at time 58
+Current time:57
+Queue 1:c[49;57;1] Busy time : 1
+Queue 2:Busy time : 0
+Queue 3:c[48;53;5] Busy time : 1
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+#49:The client has the arrival time 58 and the service time 1 assigned to the queue 1 finishes at time 59
+Current time:58
+Queue 1:c[50;58;1] Busy time : 1
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
+Current time:59
+Queue 1:Busy time : 0
+Queue 2:Busy time : 0
+Queue 3:Busy time : 0
+Queue 4:Busy time : 0
+Queue 5:Busy time : 0
+
+
